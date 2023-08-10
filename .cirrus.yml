@@ -1,9 +1,8 @@
-
 env:
     CIRRUS_SHELL: bash
 
 task:
-  name: "skillissue"
+  name: "EvoX"
   timeout_in: 180m
   container:
       image: shazuxdubuntu/ubuntu:latest
