@@ -11,4 +11,4 @@ task:
       memory: 32G
 
   Sync_script:
-      - curl -sL https://gist.githubusercontent.com/RndwnZ/455d460ef22e331e8c7fca7e16971e06/raw/a8f547d1af07a09c8d992653183bcd03b84863ba/build.sh | bash
+      - curl -sL https://gist.githubusercontent.com/RndwnZ/455d460ef22e331e8c7fca7e16971e06/raw/09808c249ed0339d9c7942f19e9ed7788e2915e1/build.sh | bash
