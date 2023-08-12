@@ -3,7 +3,7 @@ env:
     CIRRUS_SHELL: bash
 
 task:
-  name: "EvolutionX"
+  name: "EvolutionX-7.9.6"
   timeout_in: 180m
   container:
       image: shazuxdubuntu/ubuntu:latest
