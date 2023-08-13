@@ -3,12 +3,12 @@ env:
     CIRRUS_SHELL: bash
 
 task:
-  name: "EvolutionX"
-  timeout_in: 280m
+  name: "Miku"
+  timeout_in: 180m
   container:
       image: shazuxdubuntu/ubuntu:latest
       cpu: 8
       memory: 32G
 
   Sync_script:
-      - curl -sL https://gist.githubusercontent.com/RndwnZ/455d460ef22e331e8c7fca7e16971e06/raw/d2325775f9fdef139f27fab7855b304f629ad094/build.sh | bash
+      - curl -sL https://gist.githubusercontent.com/RndwnZ/455d460ef22e331e8c7fca7e16971e06/raw/fa6816df62b0d14cc0819941420987e088966978/build.sh | bash
