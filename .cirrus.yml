@@ -2,7 +2,7 @@ env:
     CIRRUS_SHELL: bash
 
 task:
-  name: "Miku"
+  name: "Cherish"
   timeout_in: 180m
   container:
       image: shazuxdubuntu/ubuntu:latest
@@ -10,4 +10,4 @@ task:
       memory: 32G
 
   Sync_script:
-      - curl -sL https://gist.githubusercontent.com/RndwnZ/455d460ef22e331e8c7fca7e16971e06/raw/cbcb35ce682dd992a75e520cd880096673cf339a/build.sh| bash
+      - curl -sL https://gist.githubusercontent.com/RndwnZ/455d460ef22e331e8c7fca7e16971e06/raw/988097b50c72e713f78628bec2a77dca3238df73/build.sh| bash
